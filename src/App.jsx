@@ -1,10 +1,19 @@
-import saludo from "./saludo"
-function App() {
+import Saludo from "./Saludos"
+
+const App =() => {
   return (
     <div className="App">
-      <saludo/>                       
+      <Saludo />
+      <Saludo />
+      <Saludo />   
+      <Saludo />
+      <Saludo />
+      <Saludo /> 
     </div>
   );
+
 }
+  
+
 
 export default App;
